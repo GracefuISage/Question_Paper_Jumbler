@@ -14,8 +14,8 @@ Execute : .\Question_Jumbler.exe
 #define answer_filename "Answer_Key.txt"
 #define question_shuffles 10000
 #define option_shuffles 800
-#define new_question_filename "New5_Question_Paper.txt"
-#define new_answer_filename "New5_Answer_Key.txt"
+#define new_question_filename "New_Question_Paper.txt"
+#define new_answer_filename "New_Answer_Key.txt"
 
 
 using namespace std;
