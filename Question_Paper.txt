@@ -1,0 +1,505 @@
+
+Q1: Which of the following can you use to create business partners in SAP S/4HANA? Note:There are 2 correct answers to this question.
+Maintain Business Roles SAP Fiori app
+Transaction OMSG - Account Groups: Supplier
+Transaction BP - Maintain Business Partner
+Supplier Master Create/Change/Display SAP Fioriapp
+
+Q2: You have created an outline agreement for a new raw material. What can you do to have this outline agreement automatically assigned as a source of supply during the planning run?
+Create a source list for the material and add the outline agreement as a source of supply.
+Set the Schedule Lines indicator in the selection screen of the planning run.
+Create a quota arrangement for the material and add the supplier as a quota arrangement item.
+Set the Regular Supplier indicator in the purchasinginforecord.
+
+Q3: In what ways can you personalize the Procurement Overview page in SAP S/4HANA? Note: There are 3 correct answers to this question.
+Extend the set with a new card.
+Change the position of cards.
+Hide an existing card.
+Change the set of cards.
+Filter information on a card.
+
+Q4: Which of the following are prerequisites for the automatic conversion of purchase requisitions into purchase orders? Note:There are 2 correct answers to this question.
+The Automatic Purchase Order indicator is set in the supplier master record.
+The purchase requisition is assigned ta valid source of supply.
+The purchase requisition contains a mater all master record.
+A contract with plant-specific conditions exists for the material and the supplier.
+
+Q5: Which table in SAP S/4HANA contains the item data for a material document?
+MIGO
+MSEG
+MARO
+MATDOC
+
+Q6: What can you use the Custom Check tool in SAP S/4HANA for?
+Provide an overview of custom code that does not comply with SAP S/4HANA
+Get recommendations about how to improve custom code.
+Replace the custom code with Business Add-Ins (BAdls).
+Automatically improve custom code.
+
+Q7: Which of the following types of purchasing info record can be created without reference to material? Note:There are 2 correct answers to this question.
+Info record for material group
+Consignment info record
+Subcontracting info record
+Pipeline info record
+
+Q8: In SAP S/4HANA you are testing the Manage Purchase Requisitions SAP Fiori app. Which of the following capabilities does the app offer? Note:There are 3 correct answers to this question.
+Automatic assignment of sources wherever possible, taking source lists and quotes into account
+Dynamic and flexible search and filtering of open purchase requisitions
+Automatic proposal of available sources of supply for each purchase requisition item
+Automatic creation of purchase orders from assigned purchase requisitions
+Creation of follow-on documents such as purchase orders and requests for quotation
+
+Q9: Which of the following can be created by MRP live? Note:There are 3 correct answers to this question.
+MRPlist
+Planned order
+Schedule line
+Purchase order
+Purchase requisition
+
+Q10: Where do you maintain the processing time for purchasing?
+Purchasing group configuration
+Purchasing view of the material master
+User parameters of the buyer
+Plant parameters
+
+Q11: Which of the following factors influence the field select on in the supplier master? Note: There are 3 correct answers to this question.
+Account group
+Industry sector
+Purchasing group
+Company code
+Purchasing organization
+
+Q12: Which of the following applications can send forecast data to SAP S/4HANA? Note:There are 2 correct answers to this question.
+SAP Supplier Relationship Management (SAPSRM)
+SAP Supply Chain Management (SAP SCM)
+SAP Integrated Business Planning (SAPIBP)
+SAP Customer Relationship Management (SAP CRM)
+
+Q13: You expect some vendors to send up an order confirmation and shipping notification for each purchase order item. You wish to monitor and dun missing confirmations. Which data in the purchase order item is required for this? Note: There are 2 correct answers to this question.
+Confirmation control key
+Order Acknowledgment Requirement indicator
+Order acknowledgment number
+One or more reminder levels
+
+Q14: You are testing a plain procurement process for stock.What follow-on documents are created when you post a goods receipt with reference to purchase order? Note:There are 2 correct answers to this question.
+Accounting document
+Inbound delivery
+Invoice document
+Material document
+
+Q15: What information does the SAP Fiori apps reference library provide? Note: There are 2 correct answers to this question.
+Information about previous versions of the app
+Accelerators with configuration building blocks
+Key installation and configuration information for each app
+Transact on codes that are no longer used
+
+Q16: How does the valuation area affect automatic account determination? Note: There are 2 correct answers to this question.
+You must configure account determination separately for each valuation area
+You set the valuation area either to company code or to plant level level.
+You group valuation areas with different chart of accounts using a valuation grouping code.
+You can set account determination differently for each valuation area.
+
+Q17: For which of the following fields can you specify personal default values in transaction MIGO for the combination of transactions (actions) and reference documents? Note:There are 2 correct answers to this question.
+Stock Type
+Posting Date
+Unit of Measure
+Movement Type
+
+Q18: What determines the sequence in which materials are planned during the material requirements planning (MRP) run?
+The control parameters of the MRP run.
+The low-level code of the materials.
+The creation date of the materials.
+The replenishment lead time of the materials.
+
+Q19: Which of the following are new features in SAP S/41ANA Sourcing and Procurement? Note: There are 2 correct answers to this question
+You must enter a supplier number in a request for quotation.
+You can link several requests for quotation (RFQ) using a collective number in the RFQ header.
+You can maintain several offers from different suppliers for one request for quotation.
+You can send a request for quotation to external sourcing platforms such as SAP Ariba Sourcing.
+
+Q20: Which of the following actions can you run with transact on MIGO? Note: There are 3 correct answers to this question.
+Create transfer order
+Cancel material document
+Enter physical inventory count
+Release GR blocked stock
+Create return delivery
+
+Q21: Where can you assign the release creation profile to generate delivery schedules? Note: There are 2 correct answers to this question.
+Scheduling agreement item
+Material master
+Vendor master
+Scheduling agreement header
+
+Q22: Which of the following SAP Fioriapps are available for an employee to carry out the self-service requisitioning process in SAP S/4HANA? Note:There are 3 correct answers to this question.
+Post Goods Receipt for Purchase Order
+Upload Supplier Invoice
+Create Purchase Requisition
+Manage Supplier Invoices
+Confirm Receipt of Goods
+
+Q23: Which of the following scenarios does SAP S/4HANA for central procurement offer? Note: There are 2 correct answers to this question.
+Create purchase requisitions in your connected systems and process them centrally in the hub system.
+Create contracts in any connected system and distribute them to the hub and the other connected systems.
+Enter goods receipts centrally in your hub system for storage locations in connected systems.
+Create purchase contracts centrally in your hub system and distribute them to the connected systems.
+
+Q24: Which of the following are improvements in SAP S/4HANA compared to SAP ERP? Note: There are 2 correct answers to this question.
+Removal of the SAP GUI
+Elimination of aggregate tables
+Simplification of the data model
+Data redundancies for higher security
+
+Q25: How can you maintain default values for the deliver reminder levels of a purchase order item? Note:There are 2 correct answers to this question.
+Maintain a purchasing value key in Customizing for the material group.
+Enter a purchasing value key in the material master record.
+Maintain a purchasing value key in Customizing for the purchasing group.
+Enter single reminder periods manually in the material master record.
+
+Q26: To which objects can you assign a field reference in SAP Materials Management? Note:There are 2 correct answers to this question.
+Industry sector
+Plant
+Company code
+MRP area
+
+Q27: Which of the following functions does the scheduling agreement with release documentation enable? Note:There are 2 correct answers to this question.
+Use release creation profiles to control the generation of forecast & Just-in-Time delivery schedules.
+Generate forecast delivery schedules automatically using MRP
+Generate Just- n-Time delivery schedules only.
+Generate both Just-in-time and forecast delivery schedules.
+
+Q28: Which organizational assignment is mandatory for external procurement?
+Company Code - Purchasing Organization Standard
+Purchasing Organization - Plant
+Plant - Purchasing Organization
+Reference Purchasing Organization - Purchasing Organization
+
+Q29: Which of the following solutions can be embedded with SAP S/4HANA? Note: There are 2 correct answers to this question.
+SAP Transportation Management
+SAP Concur
+SAP Extended Warehouse Management
+SAP Ariba
+
+Q30: You want to have different materials that belong to the same material type for example, FERT (Finished Product). Posted to different stock accounts. How can you do this? Note: There are 2 correct answers to this question.
+Allow several account category references for the material type.
+Assign different valuation classes to the materials.
+Assign different valuation categories to the materials.
+Allow several valuation classes for the material type.
+
+Q31: In which functions (transactions) is source determination available to automatically assign a source of supply? Note: There are 3 correct answers to this question.
+Convert a planned order into purchase requisition (MD14 or MD15)
+Create scheduling agreement release (ME84)
+Create purchase order, where vendor is unknown (ME25)
+Create purchase requisition (ME51N)
+Maintain quota arrangement (MEQ1)
+
+Q32: Which time fields are used during forward scheduling in material requirements planning? Note:There are 2 correct answers to this question.
+Processing Time for Purchasing
+Scheduling Margin Key
+Total Replenishment Lead Time
+Goods Receipt Processing Time
+
+Q33: When you order your shopping cart using self-service requisitioning in SAP S/4HANA. What types of documents can the system create in the background? Note: There are 2 correct answers to this question.
+A purchase requisition
+A purchase order
+A production order
+A reservation
+
+Q34: Which of the following capabilities does the Operational Procurement end-to-end solution in SAP S/4HANA provide? Note: There are 3 correct answers to this question.
+Collaborative planning
+Service purchasing
+Self-service requisitioning
+Strategic sourcing
+Procurement analytics
+
+Q35: Which of the following fields belong to the purchase order header? Note: There are 3 correct answers to this question.
+Company Code
+Purchase Organization
+Supplier Sub range
+Purchasing Group
+Plant
+
+Q36: Which of the following views can be maintained fora material with the new material type SERV (Service Material) in SAP S/4HANA? Note: There are 3 correct answers to this question.
+Purchasing
+Sales
+Accounting
+Costing
+Forecasting
+
+Q37: Which core processes are included in SAP S/4HANA Enterprise Management? Note: There are 3 correct answers to this question.
+Core Finance
+Transportation Management
+Commodity Management
+Plant Product
+Procure to Pay
+
+Q38: In SAP S/4HANA you are testing the new supplier evaluation based on the purchasing category. What are the advantages compared to supplier evaluation based on the Logistics Information System? Note:There are 3 correct answers to this question.
+Calculation of scores at client level instead of at purchasing organization level
+Possibility of evaluating the sustainability performance of suppliers
+Availability of the ratings for buyer's negotiation sheet
+Availability of the ratings in real-time
+Possibility of evaluating soft facts by means of questionnaires
+
+Q39: In which applications can a bill of material (BOM) be used to determine the components of a finished product? Note:There are 3 correct answers to this question.
+Vendor consignment
+Material requirements planning
+Third-party order processing
+Subcontracting
+Product costing
+
+Q40: You are responsible for releasing blocked supplier invoices. Which of the following options does SAP S/4HANA offer? Note:There are 2 correct answers to this question.
+Use the My lnbox SAP Fiori app if a workflow has been implemented for this purpose.
+Choose the Monitor Payments SAP Fioriapp and branch to the invoice to be released.
+Choose the Schedule Billing Release SAP Fioriapp for an automatic release.
+Choose the Supplier Invoices List SAP Fioriapp and branch to the invoice to be released.
+
+Q41: Which of the following are types of SAP Fiori users? Note:There are 3 correct answers to this question.
+Developer
+Occasional
+Business partner
+Expert
+Employee
+
+Q42: What are consumption-based material requirements planning (MRP) planning procedures based on?
+Planned independent requirements
+Previous material usage
+Dependent requirements
+Material reservations
+
+Q43: How does inventory management differ in SAP S/4HANA compared to SAP ERP? Note:There are 2 correct answers to this question.
+MARC and MARD tables no longer contain stock aggregates.
+Material ledger is recommended for material valuation.
+MKPF and MSEG SAP ERP document tables are no longer displayed.
+Material ledger is obligatory for material valuation.
+
+Q44: What analytical apps are available in inventory management? Note:There are 2 correct answers.
+Dead Stock Analysis
+Quantity Contract Consumption
+Manage Stock
+Stock-Multiple Materials
+
+Q45: What must you consider regarding the extension of the maximum field length of the material number in SAP S/4HANA? Note: There are 2 correct answers to this question.
+Custom code referring to the extension of the material number field length may need to be updated.
+The extended material number functionality is activated by default in SAP S/4HANA.
+The extended material number functionality CANNOT be activated in a multi-system landscape.
+SAP provides technical compatibility for released external interfaces such as BAPls and IDocs.
+
+Q46: You are configuring the field selection for the material master. Which value of the field attribute has the highest priority?
+The field is only displayed
+The field is hidden
+The field is optional
+The field is mandatory
+
+Q47: You want to set up a uniform account determination for all materials of several material types, for example raw materials (material type ROH) and operating supplies (material typeHISE). How do you achieve this?
+Define a new common valuation area for the materials.
+Group the material types using a common valuation class.
+Define a common item category group for the material types.
+Group the material types using a common account category reference.
+
+Q48: Which of the following factors influence the automatic account determination in inventory management? Note:There are 3 correct answers to this question.
+Movement type
+Storage location
+Material type
+Plant
+Document type
+
+Q49: Which of the following options are available in SAP S/4HANA for posting a goods receipt to non- valuated GR blocked stock? Note: There are 2 correct answers to this question.
+SAP GUI transaction MB01
+SAP GUI transaction MIGO
+Confirm Receipt of Goods SAP Fiori app
+Post Goods Receipt for Purchase Order SAP Fiori app
+
+Q50: On which level can you define lock-relevant fields?
+User
+Material
+Plant
+Client
+
+Q51: What must you do before the creation of Just-in-Time (JIT) delivery schedule lines for a scheduling agreement? Note: There are 2 correct answers to this question.
+Maintain the JIT Indicator field in the item details of the scheduling agreement.
+Create a scheduling agreement without release documentation.
+Use MRP to generate delivery schedule lines en an hour y basis.
+Set the JIT Indicator field in the material master record referenced in the scheduling agreement item.
+
+Q52: The planned delivery date in your purchase order item is in the past and no goods receipt was posted. You want to generate a reminder according to the dunning levels in the purchase order item. However, the system displays an error message stating that no suitable purchasing documents were found. Which of the following reasons can cause this? Note: There are 2 correct answers to this question.
+The purchasing value key is missing in the material master record.
+The message determination for delivery reminders is set incorrectly.
+The purchase order was NOT confirmed.
+The purchase order was NOT output.
+
+Q53: You want to order material for a cost center. Which field in the purchase order controls procurement directly for consumption?
+Item Category
+Account Assignment Category
+Purchase Order Type
+Procurement Document Category
+
+Q54: Which of the following capabilities does Ariba Network offer for invoicing in SAP S/4HANA? Note: There are 2 correct answers to this question.
+Supplier invoices sent using Ariba Network are posted directly in SAP S/4HANA.
+Suppliers can monitor their invoices and payment status in Ariba Network.
+Using the Ariba network speeds up invoicing, but still requires additional paper invoices to be sent.
+Supplier invoices uploaded to Ariba Network appear directly in SAP S/4HANA as drafts.
+
+Q55:Which of the following transactions are obsolete in SAP S/4HANA as a result of simplification? Note: There are 2 correct answers to this question.
+MB01
+MIGO
+MM01
+MBSL 
+
+Q56: Which of the following are required tenable account changes when posting an invoice with reference ta purchase order item with account assignment? Note:There are 2 correct answers to this question.
+Choose a valuated goods receipt in the purchase order item and post the invoice before the goods receipt.
+Allow account assignment changes during invoice receipt in Customizing for the account assignment category.
+Choose either a non-valuated goods receipt or no goods receipt post ng in the purchase order item.
+Choose multiple account assignment combined with a partial invoice indicator in the purchase order item.
+
+Q57: How does SAP HANA use the remote data sync to communicate with Internet of Things (loT) devices? Note: There are 2 correct answers to this question.
+Devices can be occasionally connected with SAP HANA.
+Remote data sync requires block chain technology.
+Devices CANNOT collect data locally.
+Remote data sync is bi-directional.
+
+Q58: Which of the following are restrictions of material-to-material postings? Note:There are 3 correct answers to this question.
+The postings can be made only between materials with the same material type.
+The postings can be made only if the stock of the issuing material is in the same storage location as the stock of the receiving material.
+The postings can be made only in a single step.
+The postings cannot be pre-planned with a reservation.
+The postings can be made only from unrestricted-use stock of the issuing material to unrestricted-use stock of the receiving material.
+
+Q59: Where can you maintain the planned delivery time used in material requirements planning? Note: There are 3 correct answers to this question.
+Outline agreement
+Material master
+Plant parameters
+Purchasing info record
+Vendor master
+
+Q60: When setting up external procurement in the SAP S/4HANA system,a customer decides to use the Lean Services functionality. What restriction applies?
+It is NOT possible to define a release procedure for a Lean Services item.
+For a Lean Services item in a purchase order, is NOT possible to work with outline levels.
+Transact on ME21N Create Purchase Order: Vendor/Supplying Plant Known does NOT support Lean Services items.
+For a Lean Services item you CANNOT create an info record in the SAP S/4HA NA system.
+
+Q61: Which of the following settings can you control with the EVO user parameter? Note: There are 3 correct answers to this question.
+Info Record Update indicator
+Copy Price from Last Purchase Order indicator
+Default value for OK indicator
+Message type of system messages (error, warning, no message)
+Order Acknowledgment Requirement indicator
+
+Q62: Which of the following must you do before the system can check the minimum remaining shelf life during the goods receipt for a purchase order (PO)? Note: There are 2 correct answers to this question.
+Enter the earliest acceptable expiration date in the PO item.
+Activate batch management for the material.
+Activate the Shelf life Expiration Data (SLED) check-in Customizing.
+Enter the remaining shelf life in the material master record.
+
+Q63: You are configuring a new material type. How do you make sure that only external procurement is possible for materials of this new material type? Note:There are 2 correct answers to this question.
+Choose 2 External Purchase Orders Allowed in the External Purchase Orders Allowed field.
+Choose P2 Production Released in the Cross-Plant Material Status field
+Choose DIEN in the Field Reference field is that only external procurement fields are available in the material master.
+Choose 0 No Internal Purchase Orders Allowed in the Internal purchase allowed field.
+
+Q64: Which of the following are prerequisites for performing material requirements planning (MRP)? Note: There are 2 correct answers to this question.
+The storage locations to be included in the plant-level MRP must be identified.
+MRP data must be maintained for the materials.
+Independent requirements must be maintained.
+The plant parameters must be maintained.
+
+Q65: You create a material type for a valuated stock material that you purchase. Which user departments must you select? Note: There are 2 correct answers to this question.
+Costing
+Purchasing
+Warehouse management
+Accounting
+
+Q66: Which of the following are benefits of split valuation? Note: There are 2 correct answers to this question.
+You can decide on split valuation for a material at any time, and any existing stocks will be split up.
+You can define criteria according to which partial stocks of a material are valuated differently within a valuation area.
+You can decide whether each batch is to be valuated individually for materials managed in batches.
+You can enter a valuation type in a purchase Order and change it at goods receipt.
+
+Q67: Your purchasing organization intends to procure a finished product from a vendor. The vendor will manufacture the product using components provided by your company. Which procurement process do you use for this scenario?
+Vendor consignment
+Third-party
+Standard
+Subcontracting
+
+Q68: What must you consider when you define a storage location? Note: There are 2 correct answers to this question.
+A storage location must be assigned ta warehouse number.
+The storage location key must be unique within a plant.
+A storage location always belongs to a plant.
+A storage location has the same address as the plant.
+
+Q69: In SAP S/4HANA, how can you ensure that the system determines a suitable source of supply for a material during material requirements planning (MRP)? Note: There are 3 correct answers to this question.
+Create a valid source list entry with the Fixed Supply Source indicator set.
+Create a purchasing info record with the Automatic Sourcing indicator set.
+Create a valid scheduling agreement.
+Create a quota arrangement for the material.
+Create a purchasing info record with the Regular Supplier indicator set.
+
+Q70: To what object can you assign a purchasing group?
+A material at client level
+A plant
+A material at plant level
+A purchasing organization
+
+Q71: What are the different types of SAP Fioriapps? Note: There are 3 correct answers to this question.
+Master data
+Configuration
+Transactional
+Factsheet
+Analytical
+
+Q72: Which of the following reporting tools are part of Strategic Analytics in SAP S/4HANA? Note: There are 2 correct answers to this question.
+SAP Lumira
+CDS View Browser
+SAP Analysis for Microsoft Office
+Query Designer
+
+Q73: You implement SAP S/4HANA in your global manufacturing company and must define your purchasing organizations. While your raw materials are procured centrally worldwide, operating materials such as small tools and cleaning agents are purchased locally at the production site. Which purchasing organizations do you create?
+One cross-company-code purchasing organization and one plant-specific purchasing organization per plant
+One cross-plant purchasing organization per company code and one plant-specific purchasing organization per plant
+One cross-company-code purchasing organization and one plant-specific purchasing organization
+One cross-company-code purchasing organization and one cross-plant purchasing organization per company code
+
+Q74: What can cause an open item on the goods receipt/invoice receipt (GR/IR) account?
+Difference between purchase order price and invoice price only for materials valuated at standard price
+Difference between delivered and invoiced quantity only for goods-receipt-based invoice verification
+Difference between quantity delivered and quantity invoiced for a purchase order item
+Difference between purchase order price and invoice price for a purchase order item
+
+Q75: Which of the following can you do with an item category? Note: There are 2 correct answers to this question.
+You can can map different procurement processes such as subcontract ng or consignment
+You can use the item category to control the number assignment of a purchase order.
+You can create new custom item categories in Customizing.
+You can change the short description of an item category in Customizing.
+
+Q76: In simplified sourcing, what does SAP S/4HANA support as possible sources of supply? Note: There are 2 correct answers to this question.
+Planned orders
+Purchasing contracts
+Quota arrangements
+Production versions
+
+Q77: Which of the following factors control the field selection in the material master? Note:There are 3 correct answers to this question.
+Industry sector
+Plant
+MRP type
+Material status
+Procurement type
+
+Q78: Which of the following characteristics are part of the business partner concept? Note:There are 3 correct answers to this question.
+Before conversion, you must merge the number ranges of your customers and your vendors.
+You can only maintain one address per business partner.
+You can assign the roles of both vendor and Customer to an individual business partner.
+The customer and vendor master data tables are automatically updated in the background.
+Business partner, customer and vendor can have different numbers.
+
+Q79: Which of the following options are controlled by the material type? Note: There are 2 correct answers to this question.
+Which procurement type(s) the material can have
+Whether split valuation is allowed for the mater al
+Whether the material number assignment is internal or external
+Whether batch management is active for the material
+
+Q80: When you create a material master record, which field determines the requirements planning procedure and related required parameters?
+MRP profile
+MRP type
+MRP controller
+MRP group
+
+
+
